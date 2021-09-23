@@ -4,28 +4,33 @@
 	height: 100%;
 	left: 0px;
 	top: 0px;
-	background: #424949;
+	background: #c0d6da;
 	overflow: auto;
-}
-
-#FondoSuperior {
-	position: relative;
-	margin: 0 auto;
-	width: 1030px;
-	background: #4D5656;
-	overflow: hidden;
 }
 
 #Encabezado {
 	position: relative;
 	width: 100%;
 	height: 100px;
-	background: #515A5A;
+	background: #e8ff17;
+	}
+
+#FondoSuperior {
+	position: relative;
+	margin: 0 auto;
+	width: 1030px;
+	background: #24045f;
+	overflow: hidden;
 }
 
 #Final {
 	position: relative;
 	width: 100%;
 	height: 100px;
-	background: #515A5A;
+	background: #d83535;
 }
+
+.fontColor {
+	font-family: #d83535;
+}
+	

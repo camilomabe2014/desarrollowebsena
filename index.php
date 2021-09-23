@@ -8,7 +8,7 @@
    <head>
       <meta charset="UTF-8">
       <title>Mi Paguina Web</title>
-      <link href="styles.css" rel="stylesheet" type="text/css">
+      <link href="css/styles.css" rel="stylesheet" type="text/css">
    </head>
    <body>
       <div id='Fondo'>
@@ -17,24 +17,23 @@
             <div >
                <div id='Contenido'>
                   <form name="formulario" method="POST" action="principal.php">
-                  <br>
-                  Ingrese su nombre: 
-                  <br>
-                  <input type="text" name="nombre" value="">
-                  <br>
-                  <br>
-                  Ingrese su edad: 
-                  <br>
-                  <input type="text" name="edad" value="">
-                  <br> <br>
-                  
-                  
-                  <input type='submit' value='Aceptar' name='BotonAceptar' />
-                  <br>
+                     <br>
+                     <center>
+                        <table>
+                           <tr>
+                              <td><label style="color:white" >Ingrese su nombre: </label></td>
+                              <td><input type="text" name="nombre" value=""></td>
+                           </tr>
+                           <tr>
+                              <td><label style="color:white" >Ingrese su edad: </label> </td>
+                              <td><input type="text" name="edad" value=""></td>
+                           </tr>
+                        </table>
+                        <br>
+                        <input type='submit' value='Aceptar' name='BotonAceptar' />
+                     </center>
                   </form>
-
-
-
+                  <br>
                </div>
                <div id='Menu'>
                </div>
